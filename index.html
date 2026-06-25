@@ -1,0 +1,148 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PrimeInvest - инвестиционный старт за 15 минут</title>
+    <meta name="description" content="PrimeInvest помогает начать инвестировать с персональной консультацией, понятной стратегией и быстрым оформлением заявки.">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav__brand" href="#top" aria-label="PrimeInvest">PrimeInvest</a>
+        <div class="nav__links">
+          <a href="#about">О нас</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <a class="button button--ghost nav__action" href="#lead-form">Консультация</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <p class="eyebrow">Маркетинговый запуск</p>
+          <h1 class="hero__title" id="hero-title">Инвестиционный план без лишней сложности</h1>
+          <p class="hero__subtitle">PrimeInvest соединяет аналитику, персональную поддержку и короткую заявку, чтобы вы быстрее перешли от интереса к первому осознанному шагу.</p>
+          <div class="hero__actions">
+            <a class="button button--primary js-cta" href="#lead-form">Начать сейчас</a>
+            <span class="hero__timer" aria-live="polite">До окончания предложения: <strong data-countdown>15:00</strong></span>
+          </div>
+        </div>
+        <div class="hero__media" aria-label="Панель инвестиционной аналитики">
+          <img
+            class="hero__image"
+            src="https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=960&q=78"
+            width="960"
+            height="720"
+            alt="Рабочий стол с финансовой аналитикой на экране"
+            fetchpriority="high">
+          <div class="metric metric--main">
+            <span class="metric__label">Средний старт</span>
+            <strong class="metric__value">12 мин</strong>
+          </div>
+          <div class="metric metric--secondary">
+            <span class="metric__label">Заявок сегодня</span>
+            <strong class="metric__value">248</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" aria-label="Ключевые показатели">
+        <div class="trust__item"><strong>4.8/5</strong><span>оценка клиентов</span></div>
+        <div class="trust__item"><strong>24/7</strong><span>доступ к кабинету</span></div>
+        <div class="trust__item"><strong>15 000+</strong><span>заявок обработано</span></div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="about__media">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=760&q=76" width="760" height="620" alt="Консультант обсуждает финансовый план с клиентом" loading="lazy">
+        </div>
+        <div class="about__content">
+          <p class="eyebrow">О PrimeInvest</p>
+          <h2 id="about-title">Личный подход к инвестиционному старту</h2>
+          <p>Мы помогаем структурировать цели, оценить комфортный уровень риска и подобрать понятный маршрут без давления и перегруженной терминологии.</p>
+          <div class="about__grid">
+            <article><h3>Стратегия</h3><p>Короткая первичная диагностика и рекомендации под ваш горизонт.</p></article>
+            <article><h3>Сопровождение</h3><p>Специалист помогает пройти заявку и отвечает на практические вопросы.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+        <div class="section__header">
+          <p class="eyebrow">Отзывы</p>
+          <h2 id="reviews-title">Клиенты ценят ясность процесса</h2>
+        </div>
+        <div class="slider" data-slider>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <article class="review-card"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=70" width="80" height="80" alt="Анна Королева" loading="lazy"><h3>Анна Королева</h3><p>Получила понятную структуру действий и смогла спокойно оставить заявку без долгих звонков.</p></article>
+              <article class="review-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=70" width="80" height="80" alt="Михаил Савин" loading="lazy"><h3>Михаил Савин</h3><p>Понравилось, что консультант говорил конкретно: цели, сроки, риски, следующий шаг.</p></article>
+              <article class="review-card"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=160&q=70" width="80" height="80" alt="Елена Марчук" loading="lazy"><h3>Елена Марчук</h3><p>Форма короткая, ответ пришел быстро. Никакой навязчивости, только полезная консультация.</p></article>
+              <article class="review-card"><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=160&q=70" width="80" height="80" alt="Игорь Волков" loading="lazy"><h3>Игорь Волков</h3><p>Удобный старт для тех, кто хочет разобраться, но не готов тратить недели на поиск информации.</p></article>
+            </div>
+          </div>
+          <div class="slider__controls" aria-label="Управление отзывами">
+            <button class="icon-button" type="button" data-slider-prev aria-label="Предыдущий отзыв">&lsaquo;</button>
+            <div class="slider__dots" data-slider-dots></div>
+            <button class="icon-button" type="button" data-slider-next aria-label="Следующий отзыв">&rsaquo;</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section lead" aria-labelledby="lead-title">
+        <div class="lead__content">
+          <p class="eyebrow">Заявка</p>
+          <h2 id="lead-title">Получите персональный расчет</h2>
+          <p>Оставьте контакты, и специалист PrimeInvest подготовит первичный сценарий под ваши цели.</p>
+        </div>
+        <form class="lead-form" id="lead-form" novalidate>
+          <div class="lead-form__progress" aria-label="Шаг формы"><span class="lead-form__step is-active" data-step-indicator="1">1</span><span class="lead-form__line"></span><span class="lead-form__step" data-step-indicator="2">2</span></div>
+          <fieldset class="lead-form__panel is-active" data-form-step="1">
+            <legend>Контактные данные</legend>
+            <label class="field"><span>Имя</span><input type="text" name="name" autocomplete="name" required minlength="2"><small class="field__error"></small></label>
+            <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required><small class="field__error"></small></label>
+            <button class="button button--primary" type="button" data-next-step>Далее</button>
+          </fieldset>
+          <fieldset class="lead-form__panel" data-form-step="2">
+            <legend>Подтверждение</legend>
+            <label class="field"><span>Страна</span><select name="country" aria-label="Страна для маски телефона"><option value="ua">Украина +380</option><option value="pl">Польша +48</option><option value="us">США +1</option></select></label>
+            <label class="field"><span>Телефон</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="+380 XX XXX XX XX"><small class="field__error"></small></label>
+            <label class="checkbox"><input type="checkbox" name="consent" required><span>Согласен на обработку данных и обратную связь</span></label>
+            <small class="field__error field__error--consent" data-consent-error></small>
+            <div class="lead-form__actions"><button class="button button--ghost" type="button" data-prev-step>Назад</button><button class="button button--primary js-cta" type="submit">Начать сейчас</button></div>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section__header"><p class="eyebrow">FAQ</p><h2 id="faq-title">Частые вопросы</h2></div>
+        <div class="accordion" data-accordion>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="true">Сколько длится консультация?</button><div class="accordion__panel"><p>Обычно первичный разговор занимает 10-15 минут. Этого достаточно, чтобы понять цель и следующий шаг.</p></div></article>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false">Нужно ли сразу пополнять счет?</button><div class="accordion__panel" hidden><p>Нет. Заявка нужна для консультации и подбора сценария. Решение остается за вами.</p></div></article>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false">Какой минимальный опыт нужен?</button><div class="accordion__panel" hidden><p>Подход подходит новичкам. Мы объясняем процесс простым языком и не перегружаем терминами.</p></div></article>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false">Можно ли выбрать удобное время связи?</button><div class="accordion__panel" hidden><p>Да. После заявки специалист согласует удобный формат и время контакта.</p></div></article>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false">Какие данные нужны для старта?</button><div class="accordion__panel" hidden><p>На первом этапе достаточно имени, email, телефона и согласия на обратную связь.</p></div></article>
+          <article class="accordion__item"><button class="accordion__trigger" type="button" aria-expanded="false">Это гарантирует доход?</button><div class="accordion__panel" hidden><p>Нет. Инвестиции связаны с рисками. PrimeInvest помогает принять более информированное решение.</p></div></article>
+        </div>
+      </section>
+    </main>
+
+    <div class="sticky-cta" data-sticky-cta aria-hidden="true"><div class="sticky-cta__inner"><span>Предложение активно: <strong data-countdown>15:00</strong></span><a class="button button--primary js-cta" href="#lead-form">Начать сейчас</a></div></div>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal__backdrop" data-modal-close></div>
+      <section class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal__close" type="button" data-modal-close aria-label="Закрыть">&times;</button>
+        <h2 id="modal-title">Заявка принята</h2>
+        <p>Спасибо. Специалист PrimeInvest свяжется с вами в ближайшее время.</p>
+        <button class="button button--primary" type="button" data-modal-close>Понятно</button>
+      </section>
+    </div>
+  </body>
+</html>
